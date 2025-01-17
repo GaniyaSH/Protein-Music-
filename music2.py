@@ -63,5 +63,5 @@ for char in text:
 performance = s.stop_transcribing()     
 performance.export_to_midi_file('1dc9.midi')
 
-print(type(performance))
+
 
