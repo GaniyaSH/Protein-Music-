@@ -15,9 +15,6 @@ from Bio import SeqIO
 
 
 
-####################################################
-
-
 notes= {'C1':24,'D1':26,'E1':28,'F1':29,'G1':31,'A1':33,'B1':35,
        'C2':36,'D2':38,'E2':40,'F2':41,'G2':43,'A2':45,'B2':47,
        'C3':48,'D3':50,'E3':52,'F3':53,'G3':55,'A3':57}
@@ -33,8 +30,7 @@ amino_acid={'TYR':'Y','ASN':'N','ASP':'D','CYS':'C','GLU':'E','GLN':'Q','GLY':'G
             
 amino_acids=['Y','N','M','L','E','P','W','R','Q','H','F','S','K','V','D','T','I','A','G']
 
-#amino_acid='TNMLEPWRQHFSKVDTIAG'
-######################################################
+
 
 
 
@@ -45,10 +41,6 @@ def protein(pdb:str):
         sequence = record.seq
         return sequence
         
-text= protein('1dc9')        
-print(text[0])
-
-########################################################
 
 
 s=Session(tempo=120)
