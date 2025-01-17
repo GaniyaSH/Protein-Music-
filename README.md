@@ -6,4 +6,4 @@ This script uniquely transforms protein sequences into melodies by assigning pia
 - Vibrational Frequency Mapping: Assigns piano notes to amino acids in ascending order of their vibrational frequencies, creating a unique auditory representation.
 - Melody Generation: Produces MIDI files with dynamic musical interpretations of protein structures.
 # Calculating vibrational frequency of amino acids
-- vibrational frequency can be calculated using DFT theorem using Gaussian software
+- Vibrational frequency can be calculated using DFT theorem using Gaussian software
