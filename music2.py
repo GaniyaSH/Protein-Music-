@@ -50,9 +50,7 @@ s.start_transcribing()
 i=0
 for char in text:
     while(i<len(text)):
-    
-    
-        if text[i] and df.iloc[1,i]=='E':
+       if text[i] and df.iloc[1,i]=='E':
             piano.play_note(aa[text[i]], 1, 1)
            
         elif text[i] and df.iloc[1,i]=='H':
