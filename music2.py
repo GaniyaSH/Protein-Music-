@@ -15,12 +15,6 @@ from Bio import SeqIO
 
 
 
-file= pd.read_csv('C:/Users/Ganu/Downloads/1dc9.csv')
-df=pd.DataFrame(file)
-df.rename(columns = {'Unnamed: 0':'ROW'}, inplace = True)
-df.set_index('ROW',inplace=True)
-print(df.iloc[1,0])
-
 ####################################################
 
 
