@@ -1,7 +1,7 @@
 # Protein-Music-Generation
-This Python script bridges bioinformatics and music by converting protein sequences into melodies. By analyzing protein structures and mapping amino acids to musical notes based on their secondary structures, the script generates unique MIDI files that audibly represent the protein’s characteristics.
+This script uniquely transforms protein sequences into melodies by assigning piano notes to amino acids based on the increasing order of their vibrational frequencies. Using secondary structure information (helix, sheet, coil) to influence note duration and dynamics, the script creates a melodic representation that reflects both the sequence and structural properties of proteins.
 # Features
-- Protein Data Retrieval: Downloads protein structures directly from the RCSB PDB database.
-- Sequence Analysis: Extracts amino acid sequences from PDB files using Biopython.
-- Musical Mapping: Maps amino acids to notes based on their properties and secondary structure elements (e.g., helix, sheet, or coil).
-- MIDI File Export: Creates a playable MIDI file to experience proteins as music.
+- Protein Data Retrieval: Downloads PDB files directly from the RCSB database.
+- Sequence and Structure Analysis: Extracts amino acid sequences and secondary structure information using Biopython.
+- Vibrational Frequency Mapping: Assigns piano notes to amino acids in ascending order of their vibrational frequencies, creating a unique auditory representation.
+- Melody Generation: Produces MIDI files with dynamic musical interpretations of protein structures.
