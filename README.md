@@ -5,3 +5,5 @@ This script uniquely transforms protein sequences into melodies by assigning pia
 - Sequence and Structure Analysis: Extracts amino acid sequences and secondary structure information using Biopython.
 - Vibrational Frequency Mapping: Assigns piano notes to amino acids in ascending order of their vibrational frequencies, creating a unique auditory representation.
 - Melody Generation: Produces MIDI files with dynamic musical interpretations of protein structures.
+# Vibartional Frequency of amino acids
+- vibrational frequency can be claculated using DFT theorem using Gaussian software
